@@ -1623,7 +1623,10 @@ def load_mission_from_json(jf_path):
 
 def start_missions():
     dp = '    自动化流程小工具，如果还不清楚怎么使用，请参考 README.md。\n' \
-         '    https://github.com/ga1008/basecolors'
+         '    https://github.com/ga1008/flow_operate\n\n' \
+         '    子工具: \n' \
+         '          定位屏幕图像: ilocate [-h]\n' \
+         '          定位屏幕颜色: clocate [-h]'
     # da = "--->      "
     da = ""
     parser = ArgumentParser(description=dp, formatter_class=RawTextHelpFormatter, add_help=True)
@@ -1684,8 +1687,8 @@ def start_missions():
 
 
 def locate_image():
-    dp = '    自动化流程小工具，如果还不清楚怎么使用，请参考 README.md。\n' \
-         '    https://github.com/ga1008/basecolors'
+    dp = '    自动化流程小工具的定位屏幕图像方法，如果还不清楚怎么使用，请参考 README.md。\n' \
+         '    https://github.com/ga1008/flow_operate'
     # da = "--->      "
     da = ""
     parser = ArgumentParser(description=dp, formatter_class=RawTextHelpFormatter, add_help=True)
@@ -1731,7 +1734,7 @@ def locate_image():
 
 
 def locate_color():
-    dp = '    自动化流程小工具，如果还不清楚怎么使用，请参考 README.md。\n' \
+    dp = '    自动化流程小工具的定位屏幕颜色的方法，如果还不清楚怎么使用，请参考 README.md。\n' \
          '    https://github.com/ga1008/flow_operate'
     # da = "--->      "
     da = ""

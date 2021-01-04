@@ -5,7 +5,7 @@ using_setuptools = True
 
 setup_args = {
     'name': 'flowoperate',
-    'version': '0.0.18',
+    'version': '0.0.19',
     'url': 'https://github.com/ga1008/flowoperate',
     'description': 'control the mouse and keyboard todo repeat jobs',
     'long_description': open('README.md', encoding="utf-8").read(),
@@ -22,6 +22,7 @@ setup_args = {
         'console_scripts': [
             'flowcmd = FlowOpt.flow_operation:start_missions',
             'ilocate = FlowOpt.flow_operation:locate_image',
+            'clocate = FlowOpt.flow_operation:locate_color',
         ]
     },
 
